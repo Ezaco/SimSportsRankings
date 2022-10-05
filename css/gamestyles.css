@@ -1,0 +1,62 @@
+body {
+  background-color: #E7E9EB;
+}
+table, th, td {
+  border: 1px solid; text-align: center; border-collapse: collapse;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.team-logos {
+  text-align: center;
+}
+
+.home-logo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: inline-block;
+  height: 150px;
+  width: auto;
+}
+
+.away-logo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: inline-block;
+  height: 150px;
+  width: auto;
+}
+
+.touchdown {
+  font-weight: bold;
+  font-size: 14pt;
+  color: green;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.penalty {
+  font-weight: bold;
+  font-size: 14pt;
+  color: #A90;
+}
+
+.interception {
+  font-weight: bold;
+  font-size: 14pt;
+  color: #CC0000;
+}

@@ -1,0 +1,132 @@
+/*Main Styling*/
+
+
+body {
+	padding-top: 170px;
+	padding-bottom: 70px;
+	background-color: #41495A;
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav li a {
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	color: #ddd;
+}
+
+.navbar-brand img {
+	height: 100px;
+	
+}
+
+.btn-header {
+	background-image: linear-gradient(to bottom right, rgb(241,143,1), rgb(247,182,67));
+	margin-top: 12px;
+	font-size: 16px;
+	height: 22px;
+	padding: 0 5px;
+	border: none;
+	margin-right: 3px;
+	color: #000;
+	font-family: 'Rancho', cursive;
+	border-color: #1A181B;
+	border-width: 3px;
+}
+
+.btn-header:hover {
+	background-image: linear-gradient(to bottom right, rgb(247,182,67), rgb(241,143,1));
+}
+
+.errortitle {
+	text-align: center;
+	color: #cc0000;
+	text-shadow: 1px 1px rgba(0,0,0,0.4);
+}
+
+.errormsg {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 15px;
+}
+
+.minilogo {
+	width: 25px;
+}
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background:linear-gradient(0deg,rgba(90,91,92,0.77),rgba(90,91,92,0.77));
+  border-right: 1px solid white;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  margin-top: 50px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: arial;
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+
+.main-content {
+	margin-left: 200px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.btn-cta-index {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 75px;
+	border-color: #1A181B00;
+	background-image: linear-gradient(to bottom right, rgb(241,143,1), rgb(247,182,67));
+	color: #000;
+	font-size: 40px;
+	font-family: 'Rancho', cursive;
+	border-width: 3px;
+	border-radius: 75px/40px;
+	text-transform: uppercase;
+}
+
+.btn-cta-index:hover {
+	background-image: linear-gradient(to bottom right, rgb(247,182,67), rgb(241,143,1));
+}
+
+ul .dropdown-menu {
+	background-color: #222;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+ul .dropdown-menu a:hover {
+	background-color: #41495A;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+a .btn-week {
+	color: #fff;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: none;
+}

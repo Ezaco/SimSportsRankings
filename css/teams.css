@@ -1,0 +1,439 @@
+/*Main Styling*/
+
+body {
+	padding-top: 170px;
+	padding-bottom: 70px;
+	/*background-color: rgba(6,29,109,.8);*/
+	background: linear-gradient(to bottom right, rgba(6,29,109,.8), rgba(6,29,109,.85), rgba(6,29,109,.8));
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav li a {
+	color: #ffffff;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: arial;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	color: #ddd;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: arial;
+}
+
+.jumbotron {
+
+	text-align: center;
+	background-image: url("../images/quidlogo.png");
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-size: contain;
+	background-position: center;
+	padding: 75px;
+	border-radius: 50%;
+}
+
+.navbar-inverse {
+	background-color: rgba(213,3,43,.9);
+}
+
+
+.navbar-inverse .navbar-brand img:hover{
+	color: #ffffff;
+}
+
+
+/*Information Styling*/
+
+.team_select {
+	text-transform: uppercase;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.btn-search {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background-color: rgba(6,29,109,.9);
+	margin-top: 5px;
+	width: 100px;
+	text-transform: uppercase;
+	border: 1px solid rgba(255,255,255,0.5);
+}
+
+.btn-search:hover {
+	color: #ddd;
+	background-color: rgba(6,29,109,.5);
+}
+
+.dropdown {
+	color: #000;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 3px;
+	height: 25px;
+	font-family: arial;
+	background-color: rgba(155,155,155,.5);
+}
+
+.teamname {
+	text-align: justify;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	font-size: 40px;
+	font-family: monaco;
+	letter-spacing: 1.5px;
+}
+
+.division {
+	margin-bottom: 10px;
+	text-align: right;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.record {
+	text-align: right;
+	font-size: 20px;
+}
+
+.sar {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 17px;
+	text-shadow : 0 0 0 #fff;
+
+}
+
+.threehr {
+	width: 20%;
+}
+
+.schedule-header {
+	text-align: left;
+	font-weight: bold;
+}
+
+.schedule-content {
+	text-align: right;
+}
+
+.schedule-content3 {
+	text-align: left;
+}
+
+
+
+.schedule-content2 {
+	text-align: left;
+}
+
+.overview-logo {
+	margin-left: auto;
+	margin-right: auto;
+	height: 225px;
+	display: block;
+	margin-top: 0;
+}
+
+.city {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.mascot {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.left-spacer {
+}
+
+.right-spacer {
+}
+
+.twohr {
+	width: 75%;
+	visibility: hidden;
+}
+
+.fourhr {
+	width: 78%;
+	margin-left: 9%;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.teamname_score {
+	font-size: 25px;
+}
+
+.record_score {
+	display: inline;
+	font-size: 12px;
+}
+
+.logo_score {
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+	display: block;
+	margin-top: 0;
+}
+
+.score {
+	text-align: center;
+	font-size: 75px;
+}
+
+.title {
+	text-align: center;
+}
+
+.snitch {
+	margin-top: 50%;
+	text-align: center;
+}
+
+.location-block {
+	text-align: center;
+	font-size: 11px;
+	font-style: italic;
+
+}
+
+.away-team {
+	border-right: 1px solid rgba(255,255,255,0.2);
+}
+
+.home-team {
+	border-left: 1px solid rgba(255,255,255,0.2);
+}
+
+.right-space2 {
+	border-left: 1px solid rgba(255,255,255,0.2);
+}
+
+.left-space2 {
+	border-right: 1px solid rgba(255,255,255,0.2);
+}
+
+.away-score-increase {
+	font-size: 20px;
+	color: blue;
+}
+
+.arrow-score{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: white;
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+.arrow-score:hover{
+	color: #ddd;
+}
+
+.away-snitch-control {
+	position: absolute;
+	top: 175px;
+	left: 45%;
+	color: #444;
+}
+
+.home-snitch-control {
+	position: absolute;
+	top: 175px;
+	left: 45%;
+	color: #444;
+}
+
+.snitch-button {
+	color: #444;
+}
+
+.sop {
+	font-weight: bold;
+	font-size: 20px;
+	background: repeating-radial-gradient(rgba(255,215,0,0.85), rgba(0,0,0,0.2));
+	/*background-color: rgba(255,215,0,0.85);*/
+	border-radius: 50px;
+}
+
+.nosop {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.nav-login {
+	float: right;
+}
+
+.nav-login form {
+	float: left;
+	padding-top: 30px;
+}
+
+.nav-login form input {
+	float: left;
+	width: 140px;
+	height: 35px;
+	padding: 0px 5px;
+	margin-right: 10px;
+	border: none;
+	background-color: #ccc;
+	font-family: arial;
+	font-size: 14px;
+	color: #111;
+	line-height: 20px;
+}
+
+.login {
+	margin-right: 5px;
+}
+
+.signup-form {
+	width: 400px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.signup-form input {
+	display: block;
+	margin: auto;
+	width: 90%;
+	height: 40px;
+	padding: 0px 5%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: arial;
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+}
+
+.signupform {
+	display: block;
+	margin: auto;
+	width: 90%;
+	margin-top: 10px;
+}
+
+.errortitle {
+	text-align: center;
+	color: #cc0000;
+	text-shadow: 1px 1px rgba(0,0,0,0.4);
+}
+
+.errormsg {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 15px;
+}
+
+.minilogo {
+	width: 25px;
+}
+
+.resetpwd {
+	display: block;
+	margin: auto;
+	color: black;
+	width: 25%;
+}
+
+.resetmsg {
+	color: #ee0000;
+	font-weight: bold;
+	text-shadow: 1px 1px rgba(0,0,0,0.4);
+}
+
+.resetpassbtn {
+	display: block;
+	margin: auto;
+}
+
+.resetpwdemail {
+	display: block;
+	margin-left: 5%;
+	color: black;
+	width: 30%;
+}
+
+.resetpwdemailbtn {
+	display: block;
+	margin-left: 5%;
+	margin-top: 5px;
+}
+
+.login-form {
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.login-form input {
+	display: block;
+	margin: auto;
+	width: 90%;
+	height: 40px;
+	padding: 0px 3%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: arial;
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+}
+
+.forgotpasslink {
+	margin-left: 17.8%;
+	color: #fff;
+}
+
+.signup-login {
+	margin-left: 5%;
+}
+
+.loginmsg {
+	color: #ee0000;
+	font-weight: bold;
+	text-shadow: 1px 1px rgba(0,0,0,0.4);
+	text-align: center;
+}
+
+.adminform {
+	display: inline;
+}
+
+.userhr {
+	margin: 2px;
+}
+
+.finalizeForm {
+	margin-top: 30px;
+	margin-left: 46%;
+	color: white;
+	font-size: 30px;
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
