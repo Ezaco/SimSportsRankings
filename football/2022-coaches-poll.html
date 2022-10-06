@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <title>SimSports 2022 CFP Committee Rankings</title>
+    <link rel="stylesheet" href="https://ezaco.github.io/SimSportsRankings/css/homestyles.css">
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+    $(function(){
+      $("#header").load("https://ezaco.github.io/SimSportsRankings/includes/header.html"); 
+      $("#footer").load("https://ezaco.github.io/SimSportsRankings/includes/footer.html"); 
+    });
+    </script> 
+    <script>
+        $(document).ready(function(){
+            $('#myselection').on('change', function(){
+                var demovalue = $(this).val(); 
+                $("div.myDiv").hide();
+                $("#show"+demovalue).show();
+            });
+        });
+  </script>
+  </head>
+  <body>
+    <div id="header"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="dropDown"><select id="myselection">
+            <option>Select a week...</option>
+            <option value="Twelve">Week 12</option>
+            <option value="Eleven">Week 11</option>
+            <option value="Ten">Week 10</option>
+            <option value="Nine">Week 9</option>
+            <option value="Eight">Week 8</option>
+            <option value="Seven">Week 7</option>
+            <option value="Six">Week 6</option>
+            </select></div>
+            <div id="showTwelve" class="myDiv">
+              <img width="100" src="https://ezaco.github.io/SimSportsRankings/images/CPW12.png" alt="Coaches Poll Week 12"/>
+            </div>
+            <div id="showEleven" class="myDiv">
+              <img width="100" src="https://ezaco.github.io/SimSportsRankings/images/CPW11.png" alt="Coaches Poll Week 11"/>
+            </div>
+            <div id="showTen" class="myDiv">
+            <img width="100" src="https://ezaco.github.io/SimSportsRankings/images/CPW10.png" alt="Coaches Poll Week 10"/>
+            </div>
+            <div id="showNine" class="myDiv">
+            <img width="100" src="https://ezaco.github.io/SimSportsRankings/images/CPW9.png" alt="Coaches Poll Week 9"/>
+            </div>
+            <div id="showEight" class="myDiv">
+            <img width="100" src="https://ezaco.github.io/SimSportsRankings/images/CPW8.png" alt="Coaches Poll Week 8"/>
+            </div>
+            <div id="showSeven" class="myDiv">
+            <img width="100" src="https://ezaco.github.io/SimSportsRankings/images/CPW7.png" alt="Coaches Poll Week 7"/>
+            </div>
+            <div id="showSix" class="myDiv">
+            <img width="100" src="https://ezaco.github.io/SimSportsRankings/images/CPW6.png" alt="Coaches Poll Week 6"/>
+            </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
