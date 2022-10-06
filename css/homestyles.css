@@ -149,11 +149,11 @@ a:hover {
 .rankingNames td {
 	border: 1px solid;
 	border-top: none;
-	width: 25%;
+	width: 20%;
 }
 
 .rankingImages td {
 	border: 1px solid;
 	border-bottom: none;
-	width: 25%;
+	width: 20%;
 }
