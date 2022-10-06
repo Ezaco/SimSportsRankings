@@ -143,16 +143,17 @@ a:hover {
 }
 
 .committeeTable {
-	width: 100%;
 	text-align: center;
 }
 
 .rankingNames td {
 	border: 1px solid;
 	border-top: none;
+	width: 25%;
 }
 
 .rankingImages td {
 	border: 1px solid;
 	border-bottom: none;
+	width: 25%;
 }
