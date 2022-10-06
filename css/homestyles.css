@@ -148,9 +148,11 @@ a:hover {
 }
 
 .rankingNames td {
+	border: 1px solid;
 	border-top: none;
 }
 
 .rankingImages td {
+	border: 1px solid;
 	border-bottom: none;
 }
