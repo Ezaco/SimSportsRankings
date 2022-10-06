@@ -139,11 +139,13 @@ a:hover {
 	color: black;
 	width: 150px;
 	margin-left: auto;
-	maright-right: none;
+	maright-right: 0px;
 }
 
 .committeeTable {
-	width: 100%
+	width: 100%;
+	border: 1px solid;
+	text-align: center;
 }
 
 .rankingNames td {
