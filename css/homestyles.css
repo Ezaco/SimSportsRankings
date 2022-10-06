@@ -130,3 +130,26 @@ a .btn-week {
 a:hover {
 	text-decoration: none;
 }
+
+.myDiv {
+	display:none;
+}
+
+#myselection {
+	color: black;
+	width: 150px;
+	margin-left: auto;
+	maright-right: none;
+}
+
+.committeeTable {
+	width: 100%
+}
+
+.rankingNames td {
+	border-top: none;
+}
+
+.rankingImages {
+	border-bottom: none;
+}
