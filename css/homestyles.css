@@ -156,4 +156,5 @@ a:hover {
 	border: 1px solid;
 	border-bottom: none;
 	width: 20%;
+	overflow-wrap: break-word;
 }
