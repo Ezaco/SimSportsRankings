@@ -158,6 +158,5 @@ a:hover {
 }
 
 .dropDown {
-	margin-right: 0px;
-	margin-left: auto;
+	float: right;
 }
