@@ -1,16 +1,7 @@
 <html>
   <head>
-    <style>
-        .myDiv{
-          display:none;
-        } 
-      #myselection{
-        color: black;
-      }
-    </style>
     <title>SimFBA Game Commentary</title>
     <link rel="stylesheet" href="https://ezaco.github.io/SimSportsRankings/css/homestyles.css">
-    <link rel="stylesheet" href="https://ezaco.github.io/SimSportsRankings/css/gamestyles.css">
     <script
         src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -38,27 +29,27 @@
       <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
-          <select style="width:150px; text-align:right" id="myselection">
+          <select id="myselection">
             <option>Select Option</option>
             <option value="One">Week 12</option>
             <option value="Two">Week 11</option>
             <option value="Three">Week 10</option>
             </select>
             <div id="showOne" class="myDiv">
-            <table style="width:100%;border-collapse:collapse">
-              <tr>
-                <td style="border-bottom:none"><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Texas State.png" alt="Texas State"/></td>
-                <td style="border-bottom:none"><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Western Michigan.png" alt="Western Michigan"/></td>
-                <td style="border-bottom:none"><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Western Kentucky.png" alt="Western Kentucky"/></td>
-                <td style="border-bottom:none"><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/UCLA.png" alt="UCLA"/></td>
-                <td style="border-bottom:none"><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Tennessee.png" alt="Tennessee"/></td>
+            <table class="committeeTable">
+              <tr class="rankingImages">
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Texas State.png" alt="Texas State"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Western Michigan.png" alt="Western Michigan"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Western Kentucky.png" alt="Western Kentucky"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/UCLA.png" alt="UCLA"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Tennessee.png" alt="Tennessee"/></td>
               </tr>
-              <tr>
-                <td style="border-top:none">Texas State</td>
-                <td style="border-top:none">Western Michigan</td>
-                <td style="border-top:none">Western Kentucky</td>
-                <td style="border-top:none">UCLA</td>
-                <td style="border-top:none">Tennessee</td>
+              <tr class="rankingNames">
+                <td>Texas State</td>
+                <td>Western Michigan</td>
+                <td>Western Kentucky</td>
+                <td>UCLA</td>
+                <td>Tennessee</td>
               </tr>
             </table>
             </div>
