@@ -139,7 +139,8 @@ a:hover {
 	color: black;
 	width: 150px;
 	margin-left: auto;
-	maright-right: 0px;
+	maright-right: auto;
+	margin-bottom: 5px;
 }
 
 .committeeTable {
