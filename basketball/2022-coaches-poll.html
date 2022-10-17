@@ -1,0 +1,118 @@
+<html>
+  <head>
+    <title>SimFBA 2022 Coaches Poll</title>
+    <link rel="stylesheet" href="https://ezaco.github.io/SimSportsRankings/css/homestyles.css">
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+    $(function(){
+      $("#header").load("https://ezaco.github.io/SimSportsRankings/includes/header.html"); 
+      $("#footer").load("https://ezaco.github.io/SimSportsRankings/includes/footer.html"); 
+    });
+    </script> 
+    <script>
+        $(document).ready(function(){
+            $('#myselection').on('change', function(){
+                var demovalue = $(this).val(); 
+                $("div.myDiv").hide();
+                $("#show"+demovalue).show();
+            });
+        });
+  </script>
+  </head>
+  <body>
+    <div id="header"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="dropDown"><select id="myselection">
+            <option>Select a week...</option>
+            <option value="0">Preseason</option>
+            </select></div>
+            <div id="show0" class="myDiv">
+              <table class="committeeTable">
+              <tr class="rankingImages">
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Appalachian State.png" title="Appalachian State"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Utah.png" title="Utah"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Akron.png" title="Akron"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Colorate State.png" title="Colorate State"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/South Alabama.png" title="South Alabama"/></td>
+              </tr>
+              <tr class="rankingNames">
+                <td>1. Appalachian<br />State</td>
+                <td>2. Utah</td>
+                <td>3. Akron</td>
+                <td>4. Colorate<br />State</td>
+                <td>5. South<br />Alabama</td>
+              </tr>
+              <tr class="rankingImages">
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/New Mexico.png" title="New Mexico"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Florida International.png" title="Florida International"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/UTEP.png" title="UTEP"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Bowling Green.png" title="Bowling Green"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/St. John's.png" title="St. John's"/></td>
+              </tr>
+              <tr class="rankingNames">
+                <td>6. New Mexico</td>
+                <td>7. Florida<br />International</td>
+                <td>8. UTEP</td>
+                <td>9. Bowling<br />Green</td>
+                <td>10. St. John's</td>
+              </tr>
+              <tr class="rankingImages">
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Houston.png" title="Houston"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Louisiana Monroe.png" title="Louisiana Monroe"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/San Diego State.png" title="San Diego State"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/UC Irvine.png" title="UC Irvine"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Missouri.png" title="Missouri"/></td>
+              </tr>
+              <tr class="rankingNames">
+                <td>11. Houston</td>
+                <td>12. Louisiana Monroe</td>
+                <td>13. San Diego<br />State</td>
+                <td>14. UC Irvine</td>
+                <td>15. Missouri</td>
+              </tr>
+              <tr class="rankingImages">
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Georgia Southern.png" title="Georgia Southern"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/St. Bonaventure.png" title="St. Bonaventure"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/South Dakota State.png" title="South Dakota State"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Kentucky.png" title="Kentucky"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Boston College.png" title="Boston College"/></td>
+              </tr>
+              <tr class="rankingNames">
+                <td>16. Georgia<br />Southern</td>
+                <td>17. St. Bonaventure</td>
+                <td>18. South Dakota<br />State</td>
+                <td>19. Kentucky</td>
+                <td>20. Boston<br />College</td>
+              </tr>
+              <table class="committeeTable">
+              <tr class="rankingImages">
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Army.png" title="Army"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Texas State.png" title="Texas State"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/South Carolina.png" title="South Carolina"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/TCU.png" title="TCU"/></td>
+                <td><img width="100" src="https://ezaco.github.io/SimSportsRankings/images/Utah State.png" title="Utah State"/></td>
+              </tr>
+              <tr class="rankingNames">
+                <td>21. Army</td>
+                <td>22. Texas<br />State</td>
+                <td>23. South<br />Carolina</td>
+                <td>24. TCU</td>
+                <td>25. Utah State</td>
+              </tr>
+            </table>
+            </div>
+           </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
